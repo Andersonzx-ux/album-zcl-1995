@@ -6,6 +6,17 @@ window.album = {
     genre: "Sertanejo",
     labels: ["Columbia / Sony Music"],
     cover: "assets/cover.jpg",
+    // Cores medidas na capa (medianas de regiões e faixas de matiz; ver tools/medir_paleta.py)
+    palette: {
+        night: "#1C0F13",   // preto do couro, das calças e das letras do nome
+        wine: "#391E1B",    // rocha em sombra profunda
+        deep: "#884132",    // rocha avermelhada em sombra
+        rock: "#C16848",    // arenito, o tom dominante da capa
+        bright: "#D18358",  // arenito iluminado pelo sol
+        sky: "#D6E0EF",     // céu azul-claro
+        denim: "#DAC9C6",   // jeans claro
+        hill: "#B39480"     // colinas ao fundo
+    },
     description: "",
     totalDuration: "56:09",
     awards: [
